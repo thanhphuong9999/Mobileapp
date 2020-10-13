@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="company.khanhnd.shopapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="KhanhShop"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:configChanges="orientation|screenSize">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_api_key"/>
+        <activity android:name="company.khanhnd.shopapp.activity.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="company.khanhnd.shopapp.activity.activity.LaptopActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.TabletActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.DienthoaiActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.DonghoActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.PhukienActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.ThongTinActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.LienHeActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.ChiTietSanPham" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.Giohang" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.Thongtinkhachhang" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.LoginActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.RegisterActivity" />
+        <activity android:name="company.khanhnd.shopapp.activity.activity.ProfileActivity"></activity>
+    </application>
+
+</manifest>

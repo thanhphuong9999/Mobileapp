@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00483e</color>
+    <color name="colorSp">#e10c00</color>
+    <color name="colorPrimaryDark">#00483e</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorToolBar">#00483e</color>
+    <color name="startblue">#ffffff</color>
+    <color name="colorToolBarTitle">#fff</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="graylight">#D3D3D3</color>
+</resources>

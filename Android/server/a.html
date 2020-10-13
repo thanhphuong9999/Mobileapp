@@ -1,0 +1,22 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form role="search" method="get" id="searchform" action="' . esc_url(home_url('/')) . '">
+        <div class="input-group">
+            <input type="text" value="' . get_search_query() . '" name="s" id="s" class="form-control"
+                placeholder="Search..." />
+            <div class="input-group-append">
+                <input style=" font-family: FontAwesome; background-color: #E69138;" type="submit" id="searchsubmit"
+                    value="'. esc_attr__('&#xf002;') .'" class="btn " />
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
